@@ -1,0 +1,40 @@
+#container{
+  width: 250px;
+  background-color: rgb(176, 209, 237);
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+input{
+  border-radius: 20px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+.List{
+  margin: 15px 0;
+}
+.List > li{
+  border-radius: 20px;
+  background-color: antiquewhite;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+button{
+  border-radius: 20px;
+  width: 60px;
+  background-color: antiquewhite;
+}
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
